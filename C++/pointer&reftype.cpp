@@ -20,3 +20,4 @@ int main()
 	cout << "\ne. Reference type: " << ptr_num;
 	return 0;
 }
+#pragma warning( pop )
