@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
- 
-#pragma warning( push )
-#pragma warning( disable : 4700)	//To ignore error 4700 in visual studio c++ 14
+
 int main()
 {
 	int* wild_ptr;
@@ -20,4 +18,3 @@ int main()
 	cout << "\ne. Reference type: " << ptr_num;
 	return 0;
 }
-#pragma warning( pop )
